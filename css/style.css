@@ -1,0 +1,231 @@
+html {
+    box-sizing: border-box;
+}
+ 
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.header {
+    background-color: #000;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+}
+.logo {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list li{
+    padding-left: 48px;
+}
+
+.top {
+    margin-top: 45px;
+}
+
+.top__iner img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.subtitle {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.subtitle__logo {
+    margin-bottom: 80px;
+}
+
+.card {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 50px;
+}
+
+.card img {
+    width: 280px;
+    border-radius: 50%;
+}
+
+.text {
+    padding-left: 50px;
+}
+
+.text h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 16px;
+
+}
+
+.text p {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.text ul {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.text ul li{
+    list-style: url('../images/Pynkt.png');
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 40px 0 0px;
+    margin-bottom: 7px;
+    line-height: 1.5;
+}
+
+.subscribe__btn {
+    background-color: #000;
+    max-width: 210px;
+    padding: 9px 56px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+
+.product {
+    padding-bottom: 85px;
+}
+.prod__title {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-family: 'Caveat', cursive;
+    font-size: 46px;
+    border-bottom: 10px solid #fdd146;
+}
+.prod__text {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+
+.prod__text a{
+    color: #268ccc;
+}
+
+.prod__photo img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.prod__bnt {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    margin: 0 auto;
+    background-color: #fdd146;
+    text-decoration: line-through;
+    font-weight: 700;
+    padding-top: 7px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.footer__iner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__contact {
+    padding-right: 30px;
+}
+
+.footer__menu {
+    padding-right: 30px;
+}
+
+.footer__iner h2 {
+    max-height: 30px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.footer__iner .menu__title {
+    border-bottom: 2px solid #fff;
+}
+
+.footer__line {
+    border-bottom: 2px solid #fff;
+}
+
+.footer__iner li {
+    margin-bottom: 5px;
+}
+
+.btn__con {
+    padding: 5px 15px;
+    border: 2px solid #fff;
+    margin-bottom: 15px;
+}
+
+.btn__menu {
+    width: 40px;
+    display: none;
+}
+
+.btn__menu div{
+    height: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+.my__contact {
+    text-transform: none;
+    font-size: 20px;
+}
